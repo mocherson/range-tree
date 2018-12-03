@@ -19,9 +19,10 @@ Implementation of range tree, range tree with fractional cascading and interval 
   
   2. test NCList using R package 
   
-  '''bash
+  ```bash
   Rscript GRangetest.R
-  '''
+  ```
+  
   Edit Line 14 and 15 to make sure your data paths are correct.
   The results will go to "timeout_gr.txt"
 
