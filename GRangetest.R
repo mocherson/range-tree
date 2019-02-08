@@ -16,16 +16,10 @@ for (chr in c(1:22, 'X')) {
     gr1 = readAsRanges(datafile)
     gr1 = NCList(gr1)
     gr2 = readAsRanges(queryfile)
-    # n = length(gr2)
-    # c = n%/%4000000
     gc()
     
     cat(sprintf('find any overlaps\n'))    
     timestart<-Sys.time()
-    # for (i in 1:c){
-    #     findOverlaps(gr1, gr2[4000000*(i-1)+1:4000000],type='any')  # 11 intersection relations        
-    # }
-    # findOverlaps(gr1, gr2[(4000000*c+1):n],type='any')
     findOverlaps(gr1, gr2,type='any')
     timeend<-Sys.time()
     t_any = as.double(timeend-timestart, units = "secs" )
