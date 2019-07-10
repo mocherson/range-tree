@@ -19,18 +19,26 @@ Implementation of range tree, range tree with fractional cascading and interval 
   
   2. test NCList using R package 
   
-  '''bash
+  ```bash
   Rscript GRangetest.R
-  '''
+  ```
+  
   Edit Line 14 and 15 to make sure your data paths are correct.
   The results will go to "timeout_gr.txt"
 
 # Citation
 ```
-@article{mao2018rangetree,
+@article{mao2019efficient,
   title={Efficient Genomic Interval Queries Using Augmented Range Trees},
   author={Mao, Chengsheng and Eran, Alal and Luo, Yuan},
-  journal={arXiv preprint arXiv:1806.01217},
-  year={2018}
+  journal={Scientific reports},
+  volume={9},
+  number={1},
+  pages={5059},
+  year={2019},
+  publisher={Nature Publishing Group}
 }
+```
+```
+Mao, Chengsheng, Alal Eran, and Yuan Luo. "Efficient Genomic Interval Queries Using Augmented Range Trees." Scientific reports 9.1 (2019): 5059.
 ```
