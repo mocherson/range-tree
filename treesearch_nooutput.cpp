@@ -111,7 +111,7 @@ timeval  c1, c2;
 }
    
 /*************rtfc_eqkey****************/
-{    
+/*{    
 	rtfc_eqkey Tfc(origin);
 	cout<<"\nBuilding rtfc_eqkey for "<<datafile<<"..."<<endl;  //for rangetree FC
 	gettimeofday(&c1,NULL);
@@ -144,6 +144,7 @@ timeval  c1, c2;
         outfs[ifl]<<endl;
     }
 }
+*/
   
 /*************rangetree**********/
 {
